@@ -46,3 +46,24 @@
 #boxes {
     border-radius: 5px;
 }
+.header {
+    font-weight: bold;
+    font-style: italic;
+    font-size:100px;
+}
+@media (max-width: 699px){
+    #container {
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 700px){
+    #container, .header {
+        margin-left: 350px;
+    }
+}
+@media (min-width: 1200px){
+    #container, .header {
+        margin-left: 770px;
+    }
+}
